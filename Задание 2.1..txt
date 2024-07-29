@@ -1,0 +1,23 @@
+--Запрос 1
+SELECT "Annual_Income" AS "Общий доод","Age" AS "Возраст", "CustomerID" AS "ID"
+FROM "Mall_customer"
+
+--Запрос 2
+SELECT *
+FROM "Mall_customer"
+Where "Age"=50
+
+--Запрос 3
+SELECT *
+FROM "Mall_customer"
+Where "Annual_Income">70 OR "Gendre"='Female'
+
+--Запрос 4
+SELECT *
+FROM "Mall_customer"
+Where "CustomerID">=20 AND "CustomerID"<=51
+
+--Запрос 5
+SELECT *
+FROM "Mall_customer"
+Where "Spending_Score">"Annual_Income" AND "Spending_Score"<"CustomerID"

@@ -1,0 +1,10 @@
+Задание 1
+select "Gendre", count(*)
+FROM "Mall_customer" 
+Group by "Gendre"
+
+Задание 2
+select *
+FROM "Mall_customer" 
+Where "Gendre"='Male'
+Order by "Age" asc, "Annual_Income" desc, "Spending_Score" asc
